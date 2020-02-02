@@ -21,6 +21,7 @@ class Arm:
     def pull(self):
         return int(random.random() < self.payoff_probability)
 
+
 class UCB:
     def __init__(self):
         self.payoffs = []
@@ -32,10 +33,16 @@ class UCB:
 
     def update_mean(self):
         self.average_payoff = sum(self.payoffs) / len(self.payoffs)
-        
+
+
 class Simulation:
     def __init__(self, rounds):
         self.rounds = rounds
+
+    
+    def decide_action(self):
+        # return argmax of all UCBs
+        pass
 
 
 if __name__ == '__main__':
