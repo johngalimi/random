@@ -26,3 +26,4 @@ class Store:
         for key, value in kv_pairs.items():
             self.set(key, value)
         return True
+
