@@ -10,7 +10,7 @@ type outsideUser struct {
 	UserName string
 }
 
-func main() {
+func collections() {
 	// arrays
 
 	// verbose - see w arrays we must specify fixed length

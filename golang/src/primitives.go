@@ -31,7 +31,7 @@ const (
 	fifth = iota
 )
 
-func main() {
+func primitives() {
 
 	fmt.Println(first, second, third, fourth, fifth, sixth)
 
